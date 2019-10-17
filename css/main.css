@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  display: inline-block;
+  text-align: left;
+  max-width: 25em;
+  padding: 1em;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+section {
+  text-align: center;
+  margin: 0;
+  padding: 2em 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+}
+
+h2, p {
+  margin: 0 0 1.5rem;
+}
+
+.btn {
+  padding: .4em .75em .5em;
+  background-color: #eee9de;
+  border-radius: 8px;
+  border: 3px solid #333;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.btn:hover {
+  background-color: #666;
+}
